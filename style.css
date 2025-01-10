@@ -8,9 +8,10 @@
   text-align: center;
 }
 /* header section style */
-
+header {
+  padding: 50px 140px 0 140px;
+}
 .hero {
-  width: 1280px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -20,8 +21,7 @@
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(./images/Banner\ Image.png);
   background-position: center;
-  margin: 0 auto;
-  margin-top: 50px;
+  background-repeat: no-repeat;
   margin-bottom: 120px;
 }
 .hero h1 {
@@ -37,4 +37,44 @@
   font-weight: 400;
   margin-bottom: 16px;
   color: white;
+}
+
+/* main style */
+
+main {
+  padding: 0 140px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.offer h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.offer h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.offer img {
+  width: 800px;
+  margin-bottom: 120px;
 }
